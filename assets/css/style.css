@@ -25,6 +25,10 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
 
     /* website fonts without helvetica neue */
@@ -50,6 +54,11 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    /* overlay */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: soft-light;
 }
 
 /* general text settings */
@@ -62,8 +71,6 @@ main {
     background-color: grey;
     color: var(--color-01);
 }
-
-
 
 .text__s {
     font-size: 2.2rem;
@@ -117,6 +124,41 @@ main {
 }
 
 
+#donate {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 4rem;
+
+}
+
+#donate img {
+    width: 2%;
+}
+
+#donate a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-03);
+    padding-top: 0.5rem;
+    color: var(--color-01);
+    font-family: var(--font-second);
+    font-size: 1rem;
+}
+
+#donate a:hover {
+    color: var(--color-04);
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -136,17 +178,14 @@ footer .footer__img {
     background-repeat: no-repeat;
 }
 
-
-
 footer .footer__text {
     background-color: var(--color-07);
-
 }
-
 
 footer .footer__text {
     padding: 6rem 0 0rem 8rem;
 }
+
 
 footer .footer__text .callToAction {
     display: flex;
@@ -161,7 +200,6 @@ footer .footer__text .callToAction p {
     color: var(--color-01);
     letter-spacing: 0.05rem;
 }
-
 
 footer .footer__text .callToAction .donate a {
     color: var(--color-01);
