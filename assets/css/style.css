@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: "MrDafoe";
+    src: url("../fonts/Mr_Dafoe/MrDafoe-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
+:root {
+
+    /* website fonts without helvetica neue */
+    --font-main: Santio;
+    --font-second: Roboto;
+    --font-special: MrDafore;
+    --font-extra: Inter;
+
+    /* website colors */
+
+    --color-01: #fff;
+    --color-02: #333333;
+    --color-03: #E7BC0E;
+    --color-04: #6BC1A3;
+    --color-05: #7EB8E1;
+
+}
