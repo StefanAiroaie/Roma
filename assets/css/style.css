@@ -136,16 +136,47 @@ footer .footer__img {
     background-repeat: no-repeat;
 }
 
+
+
 footer .footer__text {
     background-color: var(--color-07);
 
 }
 
 
-footer .footer_text .callToAction {}
+footer .footer__text {
+    padding: 6rem 0 0rem 8rem;
+}
+
+footer .footer__text .callToAction {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 16vw;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+footer .footer__text .callToAction p {
+    color: var(--color-01);
+    letter-spacing: 0.05rem;
+}
 
 
-.inspired {
+footer .footer__text .callToAction .donate a {
+    color: var(--color-01);
+    border: 1px solid var(--color-01);
+    font-family: var(--font-second);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+
+/* last message bottom */
+footer .footer__text .inspired {
     font-family: var(--font-second);
     font-size: 0.8rem;
     font-weight: 400;
@@ -154,8 +185,7 @@ footer .footer_text .callToAction {}
     padding: 1rem;
 }
 
-
-.inspired a {
+footer .footer__text .inspired a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-04);
